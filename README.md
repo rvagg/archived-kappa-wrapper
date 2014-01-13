@@ -1,5 +1,5 @@
 ## kappa-wrapper
 
-**An wrapper for Kappa for easier configuration and certificate
-authenticated support**
+**A wrapper for Kappa for easier configuration with certificate-authenticated support**
 
+Documentation coming ...

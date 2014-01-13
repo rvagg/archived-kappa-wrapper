@@ -23,6 +23,7 @@
     "kappa": "~0.12.0",
     "xtend": "~2.1.2",
     "after": "~0.8.1",
-    "map-async": "~0.1.1"
+    "map-async": "~0.1.1",
+    "kappa-bridge": "~0.0.1"
   }
 }
