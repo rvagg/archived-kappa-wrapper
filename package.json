@@ -1,7 +1,7 @@
 {
   "name": "kappa-wrapper",
   "version": "0.0.2",
-  "description": "An bridge for certificate-authenticated npm connections to Kappa registries",
+  "description": "A wrapper for Kappa for easier configuration with certificate-authenticated support",
   "main": "kappa-wrapper.js",
   "keywords": [
     "npm",
