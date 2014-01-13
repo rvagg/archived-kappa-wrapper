@@ -1,6 +1,6 @@
 {
   "name": "kappa-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An bridge for certificate-authenticated npm connections to Kappa registries",
   "main": "kappa-wrapper.js",
   "keywords": [
