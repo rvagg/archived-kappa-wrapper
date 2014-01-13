@@ -1,6 +1,6 @@
 {
   "name": "kappa-wrapper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A wrapper for Kappa for easier configuration with certificate-authenticated support",
   "main": "kappa-wrapper.js",
   "keywords": [
