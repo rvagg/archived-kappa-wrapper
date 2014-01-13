@@ -25,5 +25,6 @@
     "after": "~0.8.1",
     "map-async": "~0.1.1",
     "kappa-bridge": "~0.0.1"
-  }
+  },
+  "preferGlobal": true
 }
