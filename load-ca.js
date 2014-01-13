@@ -29,18 +29,15 @@ function loadCa (config, callback) {
   if (Array.isArray(config.tls.ca))
     return loadCaFiles(config, config.configDir || '.', config.tls.ca, callback)
 
-  var cadir = config.tls.cadir
+  var cadir = path.join(config.configDir || '.', config.tls.cadir)
 
-  if (config.configDir)
-    cadir = path.join(config.configDir, cadir)
-
-  fs.readdir(config.tls.cadir, function (err, list) {
+  fs.readdir(cadir, function (err, list) {
     if (err)
       return callback(err)
 
     list = list.filter(function (f) { return (/\.pem$/).test(f) })
 
-    loadCaFiles(config, config.tls.cadir, list, callback)
+    loadCaFiles(config, cadir, list, callback)
   })
 }
 
